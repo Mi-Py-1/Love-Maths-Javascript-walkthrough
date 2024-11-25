@@ -52,10 +52,8 @@ function checkAnswer() {
     if (isCorrect) {
         alert("Hey! You got it right! :D");
     } else {
-        alert(`Awwwww.... you answered ${userAnswer})
+        alert(`Awwwww.... you answered ${userAnswer}. The correct answer was $calculatedAnswer[0]}!`);
     }
- 
-
     
 }
 
